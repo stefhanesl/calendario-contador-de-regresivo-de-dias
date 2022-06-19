@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;500&display=swap');
+body {
+    font-family: 'Roboto Slab', serif;
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #cad0ee;
+    text-shadow: 2px 2px #299e77;
+    font-size: 70px;
+    margin-bottom: 0;
+}
+
+#contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#contenido{
+    background-color: white;
+    padding: 40px;
+    width: 400px;
+    margin: 0 auto;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+button {
+    border: none;
+    background-color: #3f87a6;
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+}
+
+
+#contenido input {
+    margin: 5px 0;
+    padding: 5px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    
+}
+
+input[type="button"] {
+    border: none;
+    background-color: #1860a8;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#btn:hover{
+    background-color: rgba(121, 150, 194, 0.836);
+    border: 2px solid rgb(112, 151, 211);
+    cursor: pointer;
+}
+
+#eventos-contenedor {
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    width: 400px;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    border-radius: 20px;
+    
+}
+
+.event {
+    border: solid 1px #ccc;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.event .days {
+    text-align: center;
+    width: 100px;
+}
+.event .days .days-number {
+    font-size: 30px;
+    font-weight: bold;
+    display: block;
+}
+.event .event-name {
+    padding: 10px;
+    width: 100px;
+}
+.event .event-date {
+    padding: 10px;
+    width: 100px;
+}
+.event .actions {
+    padding: 10px;
+}
